@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Happy 1 Month KASH ❤️</title>
+
+  <style>
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body{
+      background: linear-gradient(to bottom, #ffd6e7, #ffb6d9, #ff8fc1);
+      min-height:100vh;
+      overflow-x:hidden;
+      color:#fff;
+    }
+
+    .container{
+      width:90%;
+      max-width:900px;
+      margin:auto;
+      padding:40px 20px;
+      text-align:center;
+      position:relative;
+      z-index:2;
+    }
+
+    h1{
+      font-size:60px;
+      color:white;
+      text-shadow:0 0 15px #ff2e7a;
+      animation:pulse 2s infinite;
+    }
+
+    @keyframes pulse{
+      0%{transform:scale(1);}
+      50%{transform:scale(1.05);}
+      100%{transform:scale(1);}
+    }
+
+    .subtitle{
+      margin-top:20px;
+      font-size:22px;
+      line-height:1.7;
+    }
+
+    .card{
+      background:rgba(255,255,255,0.2);
+      backdrop-filter: blur(10px);
+      padding:35px;
+      border-radius:25px;
+      margin-top:40px;
+      box-shadow:0 10px 30px rgba(0,0,0,0.2);
+      transition:0.5s;
+    }
+
+    .card:hover{
+      transform:scale(1.03);
+    }
+
+    .card h2{
+      margin-bottom:25px;
+      font-size:35px;
+      color:#fff;
+    }
+
+    .card p{
+      font-size:20px;
+      margin:18px 0;
+      line-height:1.8;
+    }
+
+    .shayari{
+      margin-top:50px;
+      background:rgba(255,255,255,0.15);
+      padding:35px;
+      border-radius:25px;
+      animation:glow 3s infinite;
+    }
+
+    @keyframes glow{
+      0%{box-shadow:0 0 10px #fff;}
+      50%{box-shadow:0 0 30px #ff2e7a;}
+      100%{box-shadow:0 0 10px #fff;}
+    }
+
+    .shayari h2{
+      margin-bottom:25px;
+      font-size:35px;
+    }
+
+    .shayari p{
+      font-size:22px;
+      line-height:2;
+      margin:25px 0;
+      font-style:italic;
+    }
+
+    .counter{
+      margin-top:50px;
+      font-size:30px;
+      font-weight:bold;
+      animation:bounce 2s infinite;
+    }
+
+    @keyframes bounce{
+      0%,100%{transform:translateY(0);}
+      50%{transform:translateY(-10px);}
+    }
+
+    .footer{
+      margin-top:70px;
+      font-size:24px;
+    }
+
+    /* Hearts */
+    .heart{
+      position:fixed;
+      bottom:-20px;
+      color:red;
+      animation:float 6s linear infinite;
+      z-index:1;
+    }
+
+    @keyframes float{
+      0%{
+        transform:translateY(0) rotate(0deg);
+        opacity:1;
+      }
+      100%{
+        transform:translateY(-120vh) rotate(360deg);
+        opacity:0;
+      }
+    }
+
+    button{
+      margin-top:35px;
+      padding:15px 35px;
+      border:none;
+      border-radius:50px;
+      background:white;
+      color:#ff2e7a;
+      font-size:20px;
+      cursor:pointer;
+      transition:0.3s;
+      font-weight:bold;
+    }
+
+    button:hover{
+      background:#ff2e7a;
+      color:white;
+      transform:scale(1.1);
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <h1>Happy 1 Month ❤️</h1>
+
+    <p class="subtitle">
+      Ek month shayad duniya ke liye chhota sa time ho... <br>
+      par mere liye yeh sabse khoobsurat journey thi 🥺✨
+    </p>
+
+    <div class="card">
+
+      <h2>Mere Pyaare Cutuu Ke Liye 💌</h2>
+
+      <p>
+        Tumhare saath har din special lagta hai...
+        aur pata bhi nahi chala ki kab ek month complete ho gaya 🫶
+      </p>
+
+      <p>
+        Tum meri life ka wo part ban gaye ho
+        jiske bina ab har cheez adhuri si lagti hai 🌍❤️
+      </p>
+
+      <p>
+        Tumhari har choti si baat,
+        tumhara care karna,
+        meri stupid baaton pe hasna...
+        sab kuch bohot precious hai mere liye 🥹
+      </p>
+
+      <p>
+        Shayad hum perfect nahi hai...
+        but tumhare saath har moment perfect lagta hai ✨
+      </p>
+
+      <p>
+        Tum wo sukoon ho jo har kisi ko nahi milta 💖
+      </p>
+
+    </div>
+
+    <div class="shayari">
+
+      <h2>Cute Shayari 🌸</h2>
+
+      <p>
+        “Ek mahina hi sahi... <br>
+        par tumne meri life ko itna khoobsurat bana diya, <br>
+        jitna maine kabhi socha bhi nahi tha.” ❤️
+      </p>
+
+      <p>
+        “Tum mile toh laga, <br>
+        jaise meri har dua ka jawab mil gaya...” 🥺✨
+      </p>
+
+      <p>
+        “Na chand chahiye, <br>
+        na sitare chahiye, <br>
+        bas har month tumhare saath aise hi nikalte rahe...” 🌙💞
+      </p>
+
+    </div>
+
+    <div class="counter">
+      1 Month = 30 Days of Happiness 💖
+    </div>
+
+    <button onclick="showMessage()">
+      Click Me ❤️
+    </button>
+
+    <div class="footer">
+      Forever Favourite Person ❤️ <br><br>
+      Made with lots of love 🥺💌
+    </div>
+
+  </div>
+
+  <script>
+
+    // Floating Hearts
+    function createHeart(){
+      const heart = document.createElement("div");
+      heart.classList.add("heart");
+
+      heart.innerHTML = "❤️";
+
+      heart.style.left = Math.random() * 100 + "vw";
+      heart.style.fontSize = Math.random() * 20 + 20 + "px";
+      heart.style.animationDuration = Math.random() * 3 + 3 + "s";
+
+      document.body.appendChild(heart);
+
+      setTimeout(() => {
+        heart.remove();
+      }, 6000);
+    }
+
+    setInterval(createHeart, 300);
+
+    // Button Message
+    function showMessage(){
+      alert("I Love You So Much ❤️🥺");
+    }
+
+  </script>
+
+</body>
+</html>
+
